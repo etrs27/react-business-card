@@ -1,16 +1,21 @@
-.main--interests {
+/* This is the stylesheet for the About and Interests components. */
+
+.main {
     color: #FFFFFF;
 }
 
-.main--interests > h3 {
+.main--headers {
     font-weight: 700;
     font-size: 16px;
     line-height: 24px;
     color: #F5F5F5;
+    margin-bottom: 0;
 }
 
-.main--interests > p {
+.main--texts {
     font-weight: 400;
     font-size: 11px;
     line-height: 15px;
+    margin-top: 0;
+    margin-bottom: 10px;
 }
