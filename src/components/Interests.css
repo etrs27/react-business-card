@@ -1,0 +1,16 @@
+.main--interests {
+    color: #FFFFFF;
+}
+
+.main--interests > h3 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #F5F5F5;
+}
+
+.main--interests > p {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+}
