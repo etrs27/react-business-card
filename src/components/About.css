@@ -5,7 +5,6 @@ header {
 .card-photo {
     border-radius: 10px 10px 0px 0px;
     width: 317px;
-    height: 317px;
     background-color: #23252C;
 }
 
@@ -28,31 +27,52 @@ h1 {
     font-size: 10px;
     line-height: 15px;
     color: #F5F5F5;
+    text-decoration: none;
 }
 
 .about--buttons {
-    margin: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.about--icons {
+    margin: 0px 2px;
+    width: 16px;
+    height: 16px;
+}
+
+.about--links {
+    text-decoration: none;
+}
+
+.about--texts {
+    font-weight: 500;
+    font-size: 12px;
+    margin: 0;
 }
 
 .about--email {
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    width: 65px;
+    height: 34px;
     padding: 9px 13px 9px 11px;
     background: #FFFFFF;
+    color: #000;
     border: 1px solid #D1D5DB;
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
     border-radius: 6px;
-    margin-right: 8px;
+    margin: 5px;
 }
 
 .about--linkedin {
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    width: 65px;
+    height: 34px;
     padding: 9px 13px 9px 11px;
     background: #5093E2;
+    color: #FFF;
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
     border-radius: 6px;
-    margin-left: 8px;
+    margin: 5px;
 }
