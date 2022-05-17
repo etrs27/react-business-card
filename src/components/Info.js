@@ -9,16 +9,16 @@ export default function Info() {
             <img className="card-photo" src={profilePhoto} alt="profile"/>
             <h1>Theodore Stansbury</h1>
             <p className="info--position">Software Engineer</p>
-            <a className="info--website" href="https://github.com/etrs27">Website</a>
+            <a className="info--website" href="/">Website</a>
             <div className="info--buttons">
                 <div className="info--email">
-                    <a className="info--links" href="#">
+                    <a className="info--links" href="/">
                         <img src={emailIcon} alt="email icon" className="info--icons"/>
                     </a>
                     <p className="info--texts">Email</p>
                 </div>
                 <div className="info--linkedin">
-                    <a className="info--links" href="#">
+                    <a className="info--links" href="/">
                         <img src={linkedinIcon} alt="linkedin icon" className="info--icons"/>
                     </a>
                     <p className="info--texts">LinkedIn</p>
